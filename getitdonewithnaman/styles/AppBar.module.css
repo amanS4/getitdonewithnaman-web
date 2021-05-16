@@ -1,12 +1,19 @@
 .menuBar {
   display: flex;
   -webkit-tap-highlight-color: transparent !important;
-  background: black;
+  background: transparent;
+  position: fixed;
+  left: 11px;
+  top: 16px;
 }
 .logo {
   position: fixed;
-  top: 5px;
-  left: 41vw;
+  top: 12px;
+  left: 39vw;
+  height: 25vw;
+  width: 25vw;
+  max-height: 91px;
+  max-width: 91px;
 }
 @media only screen and (min-width: 768px) {
   .logo {

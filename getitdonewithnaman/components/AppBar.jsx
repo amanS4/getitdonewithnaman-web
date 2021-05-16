@@ -42,8 +42,6 @@ export default function AppBar(props) {
           }
           className={styles.logo}
           alt="page logo"
-          height="54px"
-          width="54px"
           src="/images/namanLogo.png"
         />
       )}
