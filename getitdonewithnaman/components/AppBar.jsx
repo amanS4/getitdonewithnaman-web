@@ -22,7 +22,7 @@ export default function AppBar(props) {
             color: "rgb(244, 133, 30)",
             display: "flex",
             alignItems: "center",
-            flexBasis: "50%",
+            flexBasis: "70%",
             fontSize: "20px",
             marginLeft: "14px",
           }}
@@ -30,20 +30,28 @@ export default function AppBar(props) {
           {titleText}
         </div>
       ) : (
-        <img
-          onClick={() =>
-            fire.firestore().collection("user-form").add({
-              id: "01",
-              name: "Aman Singh",
-              age: 20,
-              mobile: "8699833080",
-              plan: "4-week-diet-workout",
-            })
-          }
-          className={styles.logo}
-          alt="page logo"
-          src="/images/namanLogo.png"
-        />
+        <div
+          style={{
+            flexBasis: "70%",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <img
+            onClick={() =>
+              fire.firestore().collection("user-form").add({
+                id: "01",
+                name: "Aman Singh",
+                age: 20,
+                mobile: "8699833080",
+                plan: "4-week-diet-workout",
+              })
+            }
+            className={styles.logo}
+            alt="page logo"
+            src="/images/namanLogo.png"
+          />
+        </div>
       )}
     </div>
   );

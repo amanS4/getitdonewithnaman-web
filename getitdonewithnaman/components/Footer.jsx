@@ -14,7 +14,9 @@ export default function Footer() {
           src="/images/instagramIcon.svg"
         />
       </a>
-      <div style={{ marginTop: "1em" }}>Get It Done With Naman &#169; </div>
+      <div style={{ marginTop: "1em", fontFamily: "emoji" }}>
+        Get It Done With Naman &#169;{" "}
+      </div>
     </div>
   );
 }

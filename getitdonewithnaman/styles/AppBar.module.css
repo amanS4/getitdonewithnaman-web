@@ -2,21 +2,13 @@
   display: flex;
   -webkit-tap-highlight-color: transparent !important;
   background: transparent;
-  position: fixed;
-  left: 11px;
-  top: 16px;
+  padding-top: 12px;
 }
 .logo {
-  position: fixed;
-  top: 12px;
-  left: 39vw;
-  height: 25vw;
-  width: 25vw;
-  max-height: 91px;
-  max-width: 91px;
+  height: 90px;
+  width: 90px;
 }
 @media only screen and (min-width: 768px) {
   .logo {
-    left: 48vw;
   }
 }

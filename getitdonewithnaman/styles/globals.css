@@ -7,6 +7,8 @@ body {
   background-color: #f2f2f2;
   font-family: "RobotoDraft", "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+  max-width: 768px;
 }
 
 * {
@@ -22,4 +24,9 @@ h5 {
 a {
   text-decoration: none;
   color: inherit;
+}
+@media only screen and (min-width: 768px) {
+  body {
+    margin-left: 29%;
+  }
 }
