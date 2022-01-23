@@ -5,7 +5,11 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Get It Done With Naman</title>
-        <meta name="keywords" content="Fitness, nutrition and diet plans" />
+        <meta
+          key="title"
+          name="keywords"
+          content="Fitness, nutrition and diet plans"
+        />
         <link rel="icon" href="/images/logo.svg" />
       </Head>
       <Component {...pageProps} />
